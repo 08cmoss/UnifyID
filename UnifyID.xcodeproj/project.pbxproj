@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		740BD7951E7240F8002B09FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740BD7941E7240F8002B09FB /* AppDelegate.swift */; };
+		740BD7971E7240F8002B09FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740BD7961E7240F8002B09FB /* ViewController.swift */; };
+		740BD79A1E7240F8002B09FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 740BD7981E7240F8002B09FB /* Main.storyboard */; };
+		740BD79D1E7240F8002B09FB /* UnifyID.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 740BD79B1E7240F8002B09FB /* UnifyID.xcdatamodeld */; };
+		740BD79F1E7240F8002B09FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 740BD79E1E7240F8002B09FB /* Assets.xcassets */; };
+		740BD7A21E7240F8002B09FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 740BD7A01E7240F8002B09FB /* LaunchScreen.storyboard */; };
+		740BD7AD1E7240F9002B09FB /* UnifyIDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740BD7AC1E7240F9002B09FB /* UnifyIDTests.swift */; };
+		740BD7B81E7240F9002B09FB /* UnifyIDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740BD7B71E7240F9002B09FB /* UnifyIDUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		740BD7A91E7240F9002B09FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 740BD7891E7240F8002B09FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 740BD7901E7240F8002B09FB;
+			remoteInfo = UnifyID;
+		};
+		740BD7B41E7240F9002B09FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 740BD7891E7240F8002B09FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 740BD7901E7240F8002B09FB;
+			remoteInfo = UnifyID;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		740BD7911E7240F8002B09FB /* UnifyID.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnifyID.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		740BD7941E7240F8002B09FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		740BD7961E7240F8002B09FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		740BD7991E7240F8002B09FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		740BD79C1E7240F8002B09FB /* UnifyID.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UnifyID.xcdatamodel; sourceTree = "<group>"; };
+		740BD79E1E7240F8002B09FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		740BD7A11E7240F8002B09FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		740BD7A31E7240F8002B09FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		740BD7A81E7240F9002B09FB /* UnifyIDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnifyIDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		740BD7AC1E7240F9002B09FB /* UnifyIDTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnifyIDTests.swift; sourceTree = "<group>"; };
+		740BD7AE1E7240F9002B09FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		740BD7B31E7240F9002B09FB /* UnifyIDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnifyIDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		740BD7B71E7240F9002B09FB /* UnifyIDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnifyIDUITests.swift; sourceTree = "<group>"; };
+		740BD7B91E7240F9002B09FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		740BD78E1E7240F8002B09FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		740BD7A51E7240F9002B09FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		740BD7B01E7240F9002B09FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		740BD7881E7240F8002B09FB = {
+			isa = PBXGroup;
+			children = (
+				740BD7931E7240F8002B09FB /* UnifyID */,
+				740BD7AB1E7240F9002B09FB /* UnifyIDTests */,
+				740BD7B61E7240F9002B09FB /* UnifyIDUITests */,
+				740BD7921E7240F8002B09FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		740BD7921E7240F8002B09FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				740BD7911E7240F8002B09FB /* UnifyID.app */,
+				740BD7A81E7240F9002B09FB /* UnifyIDTests.xctest */,
+				740BD7B31E7240F9002B09FB /* UnifyIDUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		740BD7931E7240F8002B09FB /* UnifyID */ = {
+			isa = PBXGroup;
+			children = (
+				740BD7941E7240F8002B09FB /* AppDelegate.swift */,
+				740BD7961E7240F8002B09FB /* ViewController.swift */,
+				740BD7981E7240F8002B09FB /* Main.storyboard */,
+				740BD79E1E7240F8002B09FB /* Assets.xcassets */,
+				740BD7A01E7240F8002B09FB /* LaunchScreen.storyboard */,
+				740BD7A31E7240F8002B09FB /* Info.plist */,
+				740BD79B1E7240F8002B09FB /* UnifyID.xcdatamodeld */,
+			);
+			path = UnifyID;
+			sourceTree = "<group>";
+		};
+		740BD7AB1E7240F9002B09FB /* UnifyIDTests */ = {
+			isa = PBXGroup;
+			children = (
+				740BD7AC1E7240F9002B09FB /* UnifyIDTests.swift */,
+				740BD7AE1E7240F9002B09FB /* Info.plist */,
+			);
+			path = UnifyIDTests;
+			sourceTree = "<group>";
+		};
+		740BD7B61E7240F9002B09FB /* UnifyIDUITests */ = {
+			isa = PBXGroup;
+			children = (
+				740BD7B71E7240F9002B09FB /* UnifyIDUITests.swift */,
+				740BD7B91E7240F9002B09FB /* Info.plist */,
+			);
+			path = UnifyIDUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		740BD7901E7240F8002B09FB /* UnifyID */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 740BD7BC1E7240F9002B09FB /* Build configuration list for PBXNativeTarget "UnifyID" */;
+			buildPhases = (
+				740BD78D1E7240F8002B09FB /* Sources */,
+				740BD78E1E7240F8002B09FB /* Frameworks */,
+				740BD78F1E7240F8002B09FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UnifyID;
+			productName = UnifyID;
+			productReference = 740BD7911E7240F8002B09FB /* UnifyID.app */;
+			productType = "com.apple.product-type.application";
+		};
+		740BD7A71E7240F9002B09FB /* UnifyIDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 740BD7BF1E7240F9002B09FB /* Build configuration list for PBXNativeTarget "UnifyIDTests" */;
+			buildPhases = (
+				740BD7A41E7240F9002B09FB /* Sources */,
+				740BD7A51E7240F9002B09FB /* Frameworks */,
+				740BD7A61E7240F9002B09FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				740BD7AA1E7240F9002B09FB /* PBXTargetDependency */,
+			);
+			name = UnifyIDTests;
+			productName = UnifyIDTests;
+			productReference = 740BD7A81E7240F9002B09FB /* UnifyIDTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		740BD7B21E7240F9002B09FB /* UnifyIDUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 740BD7C21E7240F9002B09FB /* Build configuration list for PBXNativeTarget "UnifyIDUITests" */;
+			buildPhases = (
+				740BD7AF1E7240F9002B09FB /* Sources */,
+				740BD7B01E7240F9002B09FB /* Frameworks */,
+				740BD7B11E7240F9002B09FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				740BD7B51E7240F9002B09FB /* PBXTargetDependency */,
+			);
+			name = UnifyIDUITests;
+			productName = UnifyIDUITests;
+			productReference = 740BD7B31E7240F9002B09FB /* UnifyIDUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		740BD7891E7240F8002B09FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Cameron Moss";
+				TargetAttributes = {
+					740BD7901E7240F8002B09FB = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 47W6DP523C;
+						ProvisioningStyle = Automatic;
+					};
+					740BD7A71E7240F9002B09FB = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 740BD7901E7240F8002B09FB;
+					};
+					740BD7B21E7240F9002B09FB = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 740BD7901E7240F8002B09FB;
+					};
+				};
+			};
+			buildConfigurationList = 740BD78C1E7240F8002B09FB /* Build configuration list for PBXProject "UnifyID" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 740BD7881E7240F8002B09FB;
+			productRefGroup = 740BD7921E7240F8002B09FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				740BD7901E7240F8002B09FB /* UnifyID */,
+				740BD7A71E7240F9002B09FB /* UnifyIDTests */,
+				740BD7B21E7240F9002B09FB /* UnifyIDUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		740BD78F1E7240F8002B09FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				740BD7A21E7240F8002B09FB /* LaunchScreen.storyboard in Resources */,
+				740BD79F1E7240F8002B09FB /* Assets.xcassets in Resources */,
+				740BD79A1E7240F8002B09FB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		740BD7A61E7240F9002B09FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		740BD7B11E7240F9002B09FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		740BD78D1E7240F8002B09FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				740BD79D1E7240F8002B09FB /* UnifyID.xcdatamodeld in Sources */,
+				740BD7971E7240F8002B09FB /* ViewController.swift in Sources */,
+				740BD7951E7240F8002B09FB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		740BD7A41E7240F9002B09FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				740BD7AD1E7240F9002B09FB /* UnifyIDTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		740BD7AF1E7240F9002B09FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				740BD7B81E7240F9002B09FB /* UnifyIDUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		740BD7AA1E7240F9002B09FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 740BD7901E7240F8002B09FB /* UnifyID */;
+			targetProxy = 740BD7A91E7240F9002B09FB /* PBXContainerItemProxy */;
+		};
+		740BD7B51E7240F9002B09FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 740BD7901E7240F8002B09FB /* UnifyID */;
+			targetProxy = 740BD7B41E7240F9002B09FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		740BD7981E7240F8002B09FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				740BD7991E7240F8002B09FB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		740BD7A01E7240F8002B09FB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				740BD7A11E7240F8002B09FB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		740BD7BA1E7240F9002B09FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		740BD7BB1E7240F9002B09FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		740BD7BD1E7240F9002B09FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 47W6DP523C;
+				INFOPLIST_FILE = UnifyID/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CameronMoss.UnifyID;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		740BD7BE1E7240F9002B09FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 47W6DP523C;
+				INFOPLIST_FILE = UnifyID/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CameronMoss.UnifyID;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		740BD7C01E7240F9002B09FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UnifyIDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CameronMoss.UnifyIDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UnifyID.app/UnifyID";
+			};
+			name = Debug;
+		};
+		740BD7C11E7240F9002B09FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UnifyIDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CameronMoss.UnifyIDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UnifyID.app/UnifyID";
+			};
+			name = Release;
+		};
+		740BD7C31E7240F9002B09FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = UnifyIDUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CameronMoss.UnifyIDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = UnifyID;
+			};
+			name = Debug;
+		};
+		740BD7C41E7240F9002B09FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = UnifyIDUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CameronMoss.UnifyIDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = UnifyID;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		740BD78C1E7240F8002B09FB /* Build configuration list for PBXProject "UnifyID" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				740BD7BA1E7240F9002B09FB /* Debug */,
+				740BD7BB1E7240F9002B09FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		740BD7BC1E7240F9002B09FB /* Build configuration list for PBXNativeTarget "UnifyID" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				740BD7BD1E7240F9002B09FB /* Debug */,
+				740BD7BE1E7240F9002B09FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		740BD7BF1E7240F9002B09FB /* Build configuration list for PBXNativeTarget "UnifyIDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				740BD7C01E7240F9002B09FB /* Debug */,
+				740BD7C11E7240F9002B09FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		740BD7C21E7240F9002B09FB /* Build configuration list for PBXNativeTarget "UnifyIDUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				740BD7C31E7240F9002B09FB /* Debug */,
+				740BD7C41E7240F9002B09FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		740BD79B1E7240F8002B09FB /* UnifyID.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				740BD79C1E7240F8002B09FB /* UnifyID.xcdatamodel */,
+			);
+			currentVersion = 740BD79C1E7240F8002B09FB /* UnifyID.xcdatamodel */;
+			path = UnifyID.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 740BD7891E7240F8002B09FB /* Project object */;
+}

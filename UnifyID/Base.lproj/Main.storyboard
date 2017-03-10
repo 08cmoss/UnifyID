@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1217" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="UnifyID" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ddU-6f-GFc">
+                                <rect key="frame" x="53" y="28" width="268" height="343"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="268" id="vEt-IT-UVG"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qlQ-hm-R51">
+                                <rect key="frame" x="16" y="617" width="343" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.17067655799236747" blue="0.26087149042891822" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Snapshot">
+                                    <color key="titleColor" red="0.97017481799314709" green="0.96399890332635785" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="snapshotButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pVs-CB-UnI"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="qlQ-hm-R51" secondAttribute="trailing" id="3sC-NQ-wrW"/>
+                            <constraint firstItem="qlQ-hm-R51" firstAttribute="top" secondItem="ddU-6f-GFc" secondAttribute="bottom" constant="246" id="6hs-gt-CdU"/>
+                            <constraint firstItem="qlQ-hm-R51" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="GJ5-fN-zmU"/>
+                            <constraint firstItem="ddU-6f-GFc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NeX-t6-Ctz"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="qlQ-hm-R51" secondAttribute="bottom" constant="20" id="Ygg-k3-tBd"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="qlQ-hm-R51" secondAttribute="leading" id="eKh-gk-OIx"/>
+                            <constraint firstItem="ddU-6f-GFc" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="fmB-cK-rco"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="previewView" destination="ddU-6f-GFc" id="UAy-cT-zQH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="122.78860569715144"/>
+        </scene>
+    </scenes>
+</document>
